@@ -32,7 +32,43 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  width: 100vw;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 50px;
+}
+
+.bottom {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.add_button {
+  background-color: blue;
+  padding: 5px 10px;
+  width: fit-content;
+  margin-right: 25px;
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.4s;
+  font-size: 18px;
+
+}
+
+.add_button:hover {
+  background-color: rgb(100, 100, 247);
+}
+
+.title {
+  font-size: 30px;
 }
